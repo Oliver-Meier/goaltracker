@@ -8,7 +8,7 @@ This sample project is a full stack application for the SAP BTP, Cloud Foundry e
 
 [TypeScript](https://www.typescriptlang.org/) is a superset of JavaScript, which can essentially be described as JavaScript with syntax for types. The additionally added syntax allows a better editor integration and aims to catch errors early in development.
 
-This project shows a full stack app entirely build with TypeScript. It is based on a basic lecture schedule scenario. The backend service features a simple data model (Rooms, Professors, Courses, Lectures) and provides data to populate a lecture schedule, which is displayed as a planning calendar on the frontend. Users can either view or manage the lecture schedule depending on the roles that are assigned to them.
+This project shows a full stack app entirely build with TypeScript. It is based on a sample lecture schedule scenario (https://github.com/SAP-samples/btp-full-stack-typescript-app/tree/main/srv). The backend service features a simple data model (Hobbies, Records) and provides data to populate a simple tracking page. Users can either view or manage the tracking items depending on the roles that are assigned to them, which is for now just a left-over copy from the other project that I would like to keep for reference.
 
 ![diagram](diagram.png)
 
