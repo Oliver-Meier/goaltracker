@@ -4,7 +4,7 @@ import JSONModel from "sap/ui/model/json/JSONModel";
 import ODataModel from "sap/ui/model/odata/v4/ODataModel";
 
 /**
- * @namespace lectures
+ * @namespace hobbytracker
  */
 export default class Component extends UIComponent {
 

@@ -1,7 +1,7 @@
 {
     "_version": "1.32.0",
     "sap.app": {
-        "id": "lectures",
+        "id": "hobbytracker",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
@@ -54,7 +54,7 @@
     "sap.ui5": {
         "flexEnabled": false,
         "rootView": {
-            "viewName": "lectures.view.MainView",
+            "viewName": "hobbytracker.view.MainView",
             "type": "XML",
             "async": true,
             "id": "MainView"
@@ -78,7 +78,7 @@
             "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
-                    "bundleName": "lectures.i18n.i18n",
+                    "bundleName": "hobbytracker.i18n.i18n",
                     "supportedLocales": [
                         "en"
                     ],
@@ -108,7 +108,7 @@
                 "routerClass": "sap.m.routing.Router",
                 "viewType": "XML",
                 "async": true,
-                "viewPath": "lectures.view",
+                "viewPath": "hobbytracker.view",
                 "controlAggregation": "pages",
                 "controlId": "app",
                 "clearControlAggregation": false
