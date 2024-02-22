@@ -29,7 +29,7 @@ export default class Formatter {
 
     public hasAdminRole(infoLoaded: boolean, roles: string[]): boolean {
         if (infoLoaded)
-            return roles ? roles.includes("LectureScheduleAdmin") : false;
+            return roles ? roles.includes("HobbyTrackerAdmin") : false;
         return true;
     }
 

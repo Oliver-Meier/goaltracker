@@ -13,7 +13,7 @@
         "ach": "ach",
         "dataSources": {
             "mainService": {
-                "uri": "/service/lectureSchedule/",
+                "uri": "/service/hobbyTracker/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0",
@@ -140,14 +140,14 @@
                 "TargetLectures": {
                     "viewType": "XML",
                     "transition": "slide",
-                    "viewId": "LectureSchedule",
-                    "viewName": "LectureSchedule"
+                    "viewId": "HobbyTracker",
+                    "viewName": "HobbyTracker"
                 }
             }
         }
     },
     "sap.cloud": {
         "public": true,
-        "service": "lectureSchedule.service"
+        "service": "hobbyTracker.service"
     }
 }

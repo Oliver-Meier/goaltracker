@@ -1,6 +1,6 @@
-using {lectureschedule as my} from '../db/schema';
+using {hobbytracker as my} from '../db/schema';
 
-@path : 'service/lectureSchedule'
+@path : 'service/hobbyTracker'
 service LectureService {
 
     entity Lectures @(restrict : [

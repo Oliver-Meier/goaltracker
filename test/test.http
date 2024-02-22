@@ -1,12 +1,12 @@
 ###
-POST http://localhost:4004/service/lectureSchedule/createEvent
+POST http://localhost:4004/service/hobbyTracker/createEvent
 Content-Type: application/json
 Authorization: Basic admin:initial
 
 {}
 
 ###
-POST http://localhost:4004/service/lectureSchedule/createEvent
+POST http://localhost:4004/service/hobbyTracker/createEvent
 Content-Type: application/json
 Authorization: Basic admin:initial
 Accept-Language: de_DE

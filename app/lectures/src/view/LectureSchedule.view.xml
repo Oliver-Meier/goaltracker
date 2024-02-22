@@ -3,7 +3,7 @@ displayBlock="true"
 xmlns="sap.m"
 xmlns:core="sap.ui.core"
 xmlns:mvc="sap.ui.core.mvc">
-<Page id="LectureSchedule" showHeader="false">
+<Page id="HobbyTracker" showHeader="false">
 	<IconTabBar
 		id="tabBarCalendars"
 		expandable="false"
